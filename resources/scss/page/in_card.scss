@@ -1,0 +1,69 @@
+.in_card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    .page_link{
+        padding-top: 20px;
+        a{
+            transition: 0.5s;
+            color: white;
+            text-transform: uppercase;
+        }
+        a:hover{
+            color: #dfc200;
+        }
+    }
+    .part{
+        margin: auto;
+        .about_wallpaper{
+            .links{
+                display: flex;
+                div{
+                    transition: 1s;
+                    margin-right: 20px;
+                    padding-right: 20px;
+                    border-right: 1px solid white;
+                    a{
+                        transition: 1s;
+                        font-size: 23px;
+                        text-transform: uppercase;
+                        color: rgb(164, 94, 190);
+                        text-decoration: none;
+                    }
+                }
+                div:hover{
+                    border-right: 1px solid #dfc200;
+                    a{
+                        color: white;
+                    }
+                }
+            }
+        }
+        button{
+            padding: 20px;
+            transition: 1s;
+            font-size: 23px;
+            text-transform: uppercase;
+            background-color: rgb(164, 94, 190);
+            border: none;
+            color: white;
+            width: 100%;
+            font-weight: 600;
+        }
+        button:hover{
+            background-color: #dfc200;
+            color: black;
+        }
+        .price{
+            p{
+                font-size: 23px;
+                text-transform: uppercase;
+                color: #dfc200;
+            }
+        }
+    }
+    h2{
+        text-transform: uppercase;
+        color: white;
+        font-size: 40px;
+    }
+}

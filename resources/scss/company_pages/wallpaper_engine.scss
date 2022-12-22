@@ -1,0 +1,31 @@
+.wallpaper_engine_container{
+    margin-top: 40px;
+    padding-top: 200px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url("../../../public/res/background_anime.jpg");
+    filter: brightness(100%) contrast(100%) saturate(30%) blur(0) hue-rotate(50deg);
+    color: white;
+    text-transform: uppercase;
+    div{
+        opacity: 0;
+        transition: 2s;
+        position: relative;
+        top: 55px;
+    }
+    .animation{
+        top: 0;
+        opacity: 100%;
+    }
+    h2{
+        font-size: 33px;
+    }
+    p{
+        margin: auto;
+        width: 700px;
+        font-size: 20px;
+    }
+}

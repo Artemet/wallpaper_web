@@ -1,0 +1,196 @@
+@media only screen and (max-width: 1786px){
+    .quality_information_two {
+        .text_part{
+            margin-left: 300px;
+        }
+    }
+}
+@media only screen and (max-width: 1684px) {
+    .filter_container {
+        margin: auto;
+    }
+    .quality_information_two {
+        .text_part{
+            margin-left: 100px;
+        }
+    }
+}
+@media only screen and (max-width: 1464px) {
+    .wallpaper_information{
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .wallpaper_information:after{
+        display: none;
+    }
+}
+@media only screen and (max-width: 1248px) {
+    .filter_container {
+        .section{
+            width: 280px;
+        }
+    }
+    .wallpaper_information{
+        .img{
+            margin: auto;
+            width: fit-content;
+            img{
+                opacity: 0;
+                transition: 2s;
+                height: 320px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1113px) {
+    .wallpaper_information{
+        .img{
+            img{
+                height: 200px;
+                width: 200px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 911px) {
+    .background{
+        background-position: right;
+    }
+    .quality_information_two{
+        grid-template-columns: 1fr;
+    }
+    .technology_container{
+        .wrapper{
+            grid-template-columns: 1fr;
+            .technology_part{
+                margin: 10px auto;
+            }
+        }
+    }
+    .nft_monkey {
+        img{
+            height: 80vh;
+        }
+    }
+    .filter_container {
+        .wrapper{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+    .wallpaper_information{
+        margin: 120px 150px;
+    }
+    //.quality_information{
+    //    img{
+    //        display: none;
+    //    }
+    //}
+    .quality_information_one{
+        text-align: center;
+        grid-template-columns: 1fr;
+        .img{
+            text-align: right;
+        }
+        .text_part{
+            margin: 0;
+        }
+    }
+    .quality_information_two{
+        text-align: center;
+        .img{
+            text-align: left;
+        }
+        .text_part{
+            margin: 0;
+        }
+    }
+}
+@media only screen and (max-width: 700px){
+    .nft_monkey{
+        img{
+            height: 60vh;
+        }
+    }
+    .web_information p{
+        text-align: center;
+    }
+    .do_information{
+        p{
+            width: 400px;
+        }
+    }
+    .filter_container{
+        h2{
+            text-align: center;
+            padding: 0;
+        }
+        p.under_information{
+            padding: 0;
+            text-align: center;
+        }
+        .sub{
+            grid-template-columns: 1fr;
+        }
+        .wrapper{
+            grid-template-columns: 1fr;
+        }
+    }
+    .wallpaper_information {
+        margin: 120px 50px;
+        .img{
+            img{
+                height: 250px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 574px){
+    .quality_information{
+        img{
+            display: none;
+        }
+    }
+}
+@media only screen and (max-width: 550px){
+    .do_information {
+        p{
+            font-size: 15px;
+            width: 300px;
+        }
+    }
+    .quality_information{
+        .text_part{
+            p{
+                font-size: 17px;
+            }
+        }
+    }
+    .wallpaper_information {
+        margin: 0 15px;
+        background: none;
+        p{
+            font-size: 30px;
+        }
+        .img{
+            img{
+                height: 200px;
+            }
+        }
+    }
+    .web_information{
+        width: 100%;
+        padding: 20px 0;
+        background-image: url("../../../public/res/ball2.gif");
+        background-position: center;
+    }
+    .nft_monkey{
+        img{
+            height: 50vh;
+        }
+        img.animation{
+            opacity: 0;
+        }
+    }
+}

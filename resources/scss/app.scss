@@ -1,0 +1,20 @@
+@import "imports";
+body{
+    margin: 0;
+    background-color: #0c0819;
+    font-family: 'Rubik', sans-serif;
+}
+a.h_one{
+    text-decoration: none;
+}
+.line{
+    background-color: #dfc200;
+    opacity: 50%;
+    width: 30px;
+    transition: 3s;
+    margin: 40px auto;
+    height: 2px;
+}
+.line_animation{
+    width: 60vw;
+}

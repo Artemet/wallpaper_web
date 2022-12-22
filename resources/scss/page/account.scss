@@ -1,0 +1,98 @@
+.my_account_container{
+    background-image: url("../../../public/res/night_tree.jpg");
+    padding-bottom: 20px;
+    .register_part{
+        display: none;
+    }
+    .register_part_open{
+        display: block;
+    }
+    .sing_in_part_close{
+        display: none;
+    }
+    h2{
+        padding-top: 20px;
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 34px;
+    }
+    form{
+        margin: auto;
+        text-transform: uppercase;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        color: white;
+        width: 400px;
+        padding: 10px;
+        //width: 500px;
+        background-color: rgb(164, 94, 190);
+        input{
+            outline: none;
+            width: 385px;
+            font-size: 14px;
+            background-color: #eaeaea;
+            color: #0b74d5;
+            border: none;
+            padding: 5px;
+            border-radius: 4px;
+        }
+        label{
+            transition: 2s;
+            opacity: 0;
+            p{
+                font-size: 20px;
+                margin-bottom: 5px;
+            }
+        }
+        label.animation{
+            opacity: 100%;
+        }
+        h3{
+            font-size: 25px;
+            text-align: center;
+        }
+        .get_in_text{
+            padding-top: 20px;
+            u{
+                transition: 0.5s;
+                color: #dfc200;
+                animation-name: u_size;
+                animation-direction: alternate-reverse;
+                animation-duration: 3s;
+                animation-iteration-count: infinite;
+            }
+            u:hover{
+                opacity: 50%;
+            }
+            @keyframes u_size {
+                0%{
+                    font-size: 20px;
+                }
+                100%{
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+    .button_send{
+        width: 419px;
+        margin: auto;
+        button{
+            padding: 5px 0;
+            background-color: #dfc200;
+            color: #0b74d5;
+            font-size: 20px;
+            transition: 0.5s;
+            text-transform: uppercase;
+            border: none;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            width: 100%;
+        }
+        button:hover{
+            background-color: #0b74d5;
+            color: #dfc200;
+        }
+    }
+}

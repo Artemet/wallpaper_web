@@ -1,0 +1,33 @@
+.choose_device{
+    h2{
+        font-size: 40px;
+        text-transform: uppercase;
+        text-align: center;
+        color: white;
+    }
+}
+.all_device{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../../../public/res/blue_wall.jpg");
+    padding-bottom: 40px;
+    a{
+        padding-top: 20px;
+        text-decoration: none;
+    }
+}
+p.under_information{
+    padding-left: 170px;
+    a{
+        transition: 0.5s;
+        opacity: 100%;
+        text-transform: uppercase;
+        font-size: 24px;
+        text-decoration: underline;
+        color: white;
+    }
+    a:hover{
+        opacity: 40%;
+        text-decoration: none;
+    }
+}

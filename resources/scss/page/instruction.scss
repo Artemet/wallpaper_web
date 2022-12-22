@@ -1,0 +1,33 @@
+.instruction_container{
+    margin-top: 150px;
+    h2{
+        text-align: center;
+        color: white;
+        font-size: 40px;
+        text-transform: uppercase;
+    }
+    .wallpaper_information{
+        .span{
+            transform: rotate(90deg);
+            transition: 2s;
+            width: fit-content;
+        }
+        .span_animation{
+            transform: rotate(0deg);
+        }
+        span{
+            color: #dfc200;
+            font-size: 70px;
+            font-weight: 700;
+            opacity: 50%;
+        }
+    }
+    .wallpaper_information_two{
+        display: grid;
+        grid-gap: 150px;
+        grid-template-columns: auto 1fr;
+        &:after{
+            display: none;
+        }
+    }
+}

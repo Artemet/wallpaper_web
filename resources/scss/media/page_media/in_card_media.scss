@@ -1,0 +1,34 @@
+@media only screen and (max-width: 1142px){
+    .in_card{
+        img{
+            height: 400px;
+        }
+    }
+}
+@media only screen and (max-width: 948px){
+    .in_card{
+        grid-template-columns: 1fr;
+        .about_wallpaper{
+            text-align: center;
+        }
+    }
+}
+@media only screen and (max-width: 471px) {
+    .in_card{
+        .part{
+            .about_wallpaper{
+                .links{
+                    display: grid;
+                    grid-gap: 20px;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 420px){
+    .in_card{
+        img{
+            height: 200px;
+        }
+    }
+}

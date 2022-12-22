@@ -1,0 +1,28 @@
+@media only screen and (max-width: 1303px){
+    .wallpaper_container{
+        .card_list{
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+}
+@media only screen and (max-width: 951px){
+    .wallpaper_container{
+        .card_list{
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+}
+@media only screen and (max-width: 623px){
+    .wallpaper_container{
+        .card_list{
+            grid-template-columns: 1fr;
+        }
+    }
+}
+@media only screen and (max-width: 549px){
+    .all_wallpaper_p{
+        padding: 0;
+        width: 100%;
+        margin: auto;
+    }
+}

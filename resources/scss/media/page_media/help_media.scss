@@ -1,0 +1,17 @@
+@media only screen and (max-width: 563px){
+    .help_message{
+        h2{
+            font-size: 27px;
+        }
+        .inputs{
+            label{
+                input{
+                    width: 250px;
+                }
+                textarea{
+                    width: 250px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,91 @@
+.card_list{
+    padding: 60px 120px;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    a{
+        text-decoration: none;
+    }
+    .card{
+        width: 300px;
+        //height: 400px;
+        transition: 0.5s;
+        background-color: rgb(164, 94, 190);
+        margin-bottom: 30px;
+        border-radius: 20px;
+        img{
+            width: 100%;
+            transition: 0.5s;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        img.phone_wallpaper{
+            height: 490px;
+        }
+        img.tablet_wallpaper{
+            height: 190px;
+        }
+        img.computer_wallpaper{
+            height: 200px;
+        }
+        .card_description{
+            padding: 10px;
+            transition: 0.5s;
+            //p.name{
+            //    transition: 2s;
+            //    opacity: 0;
+            //}
+            p.name_animation{
+                opacity: 100%;
+            }
+        }
+        p{
+            font-size: 20px;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: white;
+        }
+    }
+    .computer_cards{
+        width: 400px;
+    }
+    .card:hover{
+        background-color: #dfc200;
+    }
+}
+.card_list_computer{
+    grid-gap: 30px;
+}
+@media only screen and (max-width: 1929px){
+    .card_list_computer{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media only screen and (max-width: 1493px){
+    .card_list{
+        padding: 60px 5px;
+    }
+}
+@media only screen and (max-width: 1265px){
+    .card_list{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .card_list_computer{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media only screen and (max-width: 941px){
+    .card_list{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media only screen and (max-width: 886px){
+    .card_list_computer{
+        grid-template-columns: 1fr;
+    }
+}
+@media only screen and (max-width: 625px){
+    .card_list{
+        grid-template-columns: 1fr;
+    }
+}

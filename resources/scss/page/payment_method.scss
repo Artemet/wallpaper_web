@@ -1,0 +1,20 @@
+.payment_container{
+    .img{
+        text-align: center;
+        img{
+            height: 200px;
+        }
+    }
+}
+.payment_method_link{
+    a{
+        padding-left: 50px;
+        transition: 0.5s;
+        font-size: 23px;
+        color: #dfc200;
+        text-transform: uppercase;
+    }
+    a:hover{
+        opacity: 50%;
+    }
+}

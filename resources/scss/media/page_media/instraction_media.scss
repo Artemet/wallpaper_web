@@ -1,0 +1,20 @@
+.wallpaper_information_mobile{
+    display: none;
+}
+@media only screen and (max-width: 1495px){
+    .instruction_container{
+        .wallpaper_information_two{
+            grid-gap: 60px;
+        }
+    }
+}
+@media only screen and (max-width: 1464px){
+    .instruction_container{
+        .wallpaper_information_media{
+            display: none;
+        }
+    }
+    .wallpaper_information_mobile{
+        display: grid;
+    }
+}
