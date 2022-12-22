@@ -70,7 +70,7 @@ Route::get("home/computer", [PageController::class, 'computer_wallpapers'])->nam
 Route::get("home/laptop", [PageController::class, 'laptop_wallpapers'])->name("laptop_wallpapers");
 # price
 Route::get("home/payment", [PageController::class, 'payment_wallpapers'])->name("payment_wallpapers");
-#
+#user_pages
 Route::post("user/send_message", [PageController::class, 'send_message'])->name("send_message");
 Route::post("user/message_problem", [PageController::class, 'message_problem'])->name("message_problem");
 #wallpaper_theme
